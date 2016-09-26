@@ -1,0 +1,46 @@
+<ion-view view-title="Adapters">
+  <ion-content style="margin-top:60px">
+   <!-- <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>-->
+    <!--http://jsfiddle.net/josedvq/Jyjjx/45/-->
+
+    <div class="row">
+      <div class="col">
+        <div class="round-button">
+          <div class="round-button-circle">
+           <a class="round-button" ng-click="viewLogClicked()">View Logs</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="round-button">
+          <div class="round-button-circle">
+            <a class="round-button" ng-click="searchClicked()">Search</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col col-50">
+        <div class="round-button">
+          <div class="round-button-circle">
+            <a  class="round-button" ng-click="statusChangeClicked()">Start</a>
+          </div>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+  </ion-content>
+</ion-view>

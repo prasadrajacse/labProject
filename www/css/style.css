@@ -1,0 +1,53 @@
+/* Empty. Add your own CSS if you like */
+
+.round-button {
+  width:100%;
+}
+.round-button-circle {
+  width: 100%;
+  height:0;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  overflow:hidden;
+  background: #387ef5;
+  box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+  background:#387ef5;
+}
+.round-button a {
+  display:block;
+  float:left;
+  width:100%;
+  padding-top:50%;
+  padding-bottom:50%;
+  line-height:1em;
+  margin-top:-0.5em;
+
+  text-align:center;
+  color:#e2eaf3;
+  font-family:Verdana;
+  font-size:1.2em;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.button.button-icon.input-button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #bbb;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.platform-android .bar-subheader.has-tabs-top{
+  top:93px !important;
+}
+
+.platform-android .has-subheader.has-tabs-top{
+  top:137px;
+}
+
